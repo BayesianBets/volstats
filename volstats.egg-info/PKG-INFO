@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: volstats
+Version: 0.1.0
+Summary: OHLC-based volatility estimators for financial time series
+Author: Ryan Gorman
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+**volstats** is a lightweight Python library that provides classic and advanced OHLC-based volatility estimators for financial time series.
+
+## Features
+- Close-to-Close
+- Parkinson
+- Rogers-Satchell
+- Garman-Klass
+- Yang-Zhang
+- GKYZ (Hybrid)
+- EWMA (Exponential)
+
+## Installation
+```bash
+pip install volstats
